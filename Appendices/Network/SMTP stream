@@ -1,0 +1,35 @@
+220 lglab-mail.itect.lan Microsoft ESMTP MAIL Service ready at Mon, 23 May 2022 14:12:11 +0200
+ehlo [10.100.10.128]
+250-lglab-mail.itect.lan Hello [10.100.10.128]
+250-SIZE 37748736
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-X-ANONYMOUSTLS
+250-AUTH NTLM
+250-X-EXPS GSSAPI NTLM
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 XRDST
+mail FROM:<hackerman@foo.com> size=300
+250 2.1.0 Sender OK
+rcpt TO:<aligator@itect.lan>
+250 2.1.5 Recipient OK
+data
+354 Start mail input; end with <CRLF>.<CRLF>
+From: hackerman@foo.com
+Content-transfer-encoding: 7bit
+Content-type: text/plain; charset="utf-8"
+To: <aligator@itect.lan>
+Subject: b5fb894ef9ac4a8eac514e05bb7397e5
+Hello: ...T..i.9..........agT..i..9...............]..T....9....) ..
+......9
+.....9..\....~....b
+u...b..1.....
+.....!...T..i..
+
+A
+.
+250 2.6.0 <0f12d5dd-5c87-4b1c-b52c-4097cb6aed18@lglab-mail.itect.lan> [InternalId=2173253451777, Hostname=lglab-mail.itect.lan] 1788 bytes in 0.772, 2,260 KB/sec Queued mail for delivery
