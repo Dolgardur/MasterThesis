@@ -1,0 +1,6 @@
+﻿#Software: Microsoft Exchange
+#Version: 15.01.2106.002
+#Log-type: audit
+#Date: 2022-05-23T12:12:44.965Z
+#Fields: Timestamp,ProcessId,ProcessName,Type,OrganizationId,Operation,Data,Signature
+2022-05-23T12:12:44.965Z,6732,w3wp,ExchangeAdmin,,,"{""CreationTime"":""2022-05-23T12:12:44"",""Id"":""2e1c7dcb-a410-4acd-231d-08da3cb58b45"",""Operation"":""New-MailboxExportRequest"",""OrganizationId"":""00000000-0000-0000-0000-000000000000"",""RecordType"":1,""ResultStatus"":""True"",""UserKey"":""itect.lan\/Users\/Administrator"",""UserType"":3,""Version"":1,""Workload"":""Exchange"",""ObjectId"":""DB#b818ece7-e3b7-47d0-8f0d-48e9e8aea5f3\\8de96749-429b-486a-b1f4-fe0c613c7d7c"",""UserId"":""itect.lan\/Users\/Administrator"",""ExternalAccess"":false,""OrganizationName"":""First Org"",""OriginatingServer"":""LGLAB-MAIL (15.01.2106.002)"",""Parameters"":[{""Name"":""Mailbox"",""Value"":""aligator""},{""Name"":""Name"",""Value"":""b5fb894ef9ac4a8eac514e05bb7397e5""},{""Name"":""ContentFilter"",""Value"":""Subject -eq 'b5fb894ef9ac4a8eac514e05bb7397e5'""},{""Name"":""FilePath"",""Value"":""\\\\127.0.0.1\\c$\\inetpub\\wwwroot\\aspnet_client\\eabphi.aspx""}]}",

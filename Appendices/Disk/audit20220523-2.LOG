@@ -1,0 +1,6 @@
+﻿#Software: Microsoft Exchange
+#Version: 15.01.2106.002
+#Log-type: audit
+#Date: 2022-05-23T12:12:31.853Z
+#Fields: Timestamp,ProcessId,ProcessName,Type,OrganizationId,Operation,Data,Signature
+2022-05-23T12:12:31.853Z,6732,w3wp,ExchangeAdmin,,,"{""CreationTime"":""2022-05-23T12:12:31"",""Id"":""8aed671b-8c87-421c-9a7f-08da3cb58363"",""Operation"":""New-ManagementRoleAssignment"",""OrganizationId"":""00000000-0000-0000-0000-000000000000"",""RecordType"":1,""ResultStatus"":""True"",""UserKey"":""itect.lan\/Users\/Administrator"",""UserType"":3,""Version"":1,""Workload"":""Exchange"",""ObjectId"":""Mailbox Import Export-Organization Management"",""UserId"":""itect.lan\/Users\/Administrator"",""ExternalAccess"":false,""OrganizationName"":""First Org"",""OriginatingServer"":""LGLAB-MAIL (15.01.2106.002)"",""Parameters"":[{""Name"":""Role"",""Value"":""Mailbox Import Export""},{""Name"":""SecurityGroup"",""Value"":""Organization Management""}]}",
